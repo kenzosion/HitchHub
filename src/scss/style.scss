@@ -1,13 +1,74 @@
 $bg-color:#4f4d4d;
 $font-color:#fff;
-$primary-color:rgb(122, 240, 247);
+$primary-color:rgb(57, 123, 210);
+$dark-overlay:rgba(0,0,0,0.8);
+
 
 body {
   background-color: $bg-color;
   color:$font-color;
+  font-family: 'lato','sans-serif';
+  word-spacing: 2px;
+  font-size: 20px;
+}
+
+.navbar-brand {
+  font-size: 30px;
 }
 
 .navbar {
   border-bottom: $primary-color 3px solid;
   opacity: 0.8;
+}
+
+#home-section {
+  background: url('https://static.pexels.com/photos/207896/pexels-photo-207896.jpeg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+
+  .dark-overlay{
+    background-color: $dark-overlay;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    min-height: 700px;
+  }
+
+  .home-inner{
+    padding-top: 160px;
+  }
+
+  .card-form{
+    opacity: 0.75;
+  }
+
+  .fa{
+    color:$primary-color;
+    background:rgb(249, 251, 249);
+    padding:4px;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+}
+
+#explore-section, #share-section{
+  .fa{
+    color:#fff;
+    background:#333;
+    padding:4px;
+    border-radius:5px;
+    font-size:20px;
+  }
+}
+
+#create-section{
+  .fa{
+    color:$primary-color;
+    background:#fff;
+    padding:4px;
+    border-radius:5px;
+    font-size:20px;
+  }
 }
