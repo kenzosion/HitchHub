@@ -13,7 +13,7 @@ body {
   opacity: 0.8; }
 
 #home-section {
-  background: url("https://static.pexels.com/photos/207896/pexels-photo-207896.jpeg") no-repeat;
+  background: url("/img/pic4.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 800px; }
