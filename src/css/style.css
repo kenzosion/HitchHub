@@ -13,7 +13,7 @@ body {
   opacity: 0.8; }
 
 #home-section {
-  background: url("/img/pic4.png") no-repeat;
+  background: url("../img/pic4.png") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   min-height: 800px; }
